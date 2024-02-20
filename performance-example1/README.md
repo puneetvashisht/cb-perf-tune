@@ -14,6 +14,11 @@
     jinfo wid pid to get specific flag for that process
     jinfo -flag <name_flag> pId
 
+    Instructions for exercise
+    1. CompileThreshold=1000
+    2. jps -- find pId
+    3. jinfo -flag CompileThreshold pId 
+
 
 
 
