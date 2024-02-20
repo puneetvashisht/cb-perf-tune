@@ -1,4 +1,10 @@
 ## Getting Started
+
+    Book Reference
+    Java 9 High Performance
+        By Mayur Ramgir , Nick Samoylov
+
+
     #Print Compilation Details
     java -XX:+PrintCompilation App 5000
 
