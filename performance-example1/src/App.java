@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Prime numbers!");
         // find time to run the program
-//        Thread.sleep(50000);
+    //    Thread.sleep(50000);
         long startTime = System.currentTimeMillis();
     
         PrimeNumbers primeNumbers = new PrimeNumbers();

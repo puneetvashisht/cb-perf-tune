@@ -29,5 +29,19 @@
     https://survey.zohopublic.com/zs/SNCO3C
 
 
+    String pool
+
+    XX:StringTableSize=120121 -XX:+PrintStringTableStatistics  StringDemo2
+
+    StringPoolSize exeeding limits
+    XX:StringTableSize=120121 -Xmx=600m -XX:+PrintStringTableStatistics  StringDemo2
+        - Results in MemoryOverflow error
+    
+    MaxHeapSize: -Xmx / -XX:MaxHeapSize:
+    InitialHeapSize: -Xms / -XX:InitialHeapSize:
+
+
+
+
 
 
