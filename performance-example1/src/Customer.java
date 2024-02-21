@@ -10,6 +10,17 @@ public class Customer {
     }
     public Customer() {
     }
-    
+
+    @Override
+    protected void finalize() throws Throwable {
+        // TODO Auto-generated method stub
+        super.finalize();
+
+        System.out.println("Customer object is garbage collected" + this.name);
+        while(true){
+            
+        }
+    }
+
 
 }
