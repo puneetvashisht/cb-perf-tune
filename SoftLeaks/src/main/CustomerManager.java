@@ -26,7 +26,7 @@ public class CustomerManager {
 		synchronized (customers) {
 			if (customers.size() > 0) {
 				// lastProcessedId++;
-				// return Optional.of(customers.get(lastProcessedId));
+				// return Optional.of(customers.get(0));
 				return Optional.of(customers.remove(0));
 			}
 		}

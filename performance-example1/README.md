@@ -38,8 +38,19 @@
         - Results in MemoryOverflow error
     
     MaxHeapSize: -Xmx / -XX:MaxHeapSize:
+    Mordern JVM will give back memory OS
     InitialHeapSize: -Xms / -XX:InitialHeapSize:
 
+
+    New Generation Size : NewRatio=1
+    Survior Spaces SurvivorRatio=8
+
+    Alogrithms for GC
+    -XX:+UseSerialGC
+    -XX:+UseParallelGC
+    -XX:+UseG1GC - G1 Garbage collector: reduces the pause time for both Young and Old Generations
+
+    -XX: ConcGCThreads: n -- change number of threads
 
 
 
