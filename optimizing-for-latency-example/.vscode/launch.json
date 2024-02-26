@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "IOBoundApplicationV2",
+            "request": "launch",
+            "mainClass": "IOBoundApplicationV2",
+            "projectName": "optimizing-for-latency-example_b2b548ea"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "IOBoundApplication",
+            "request": "launch",
+            "mainClass": "IOBoundApplication",
+            "projectName": "optimizing-for-latency-example_b2b548ea"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "optimizing-for-latency-example_b2b548ea"
+        },
+        {
+            "type": "java",
+            "name": "ThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "ThreadPoolDemo",
+            "projectName": "optimizing-for-latency-example_b2b548ea"
+        }
+    ]
+}
